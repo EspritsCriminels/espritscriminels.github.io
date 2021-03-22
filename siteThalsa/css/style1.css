@@ -1,0 +1,345 @@
+a{
+				color: white;
+				text-decoration: none;
+				border-bottom: none;
+            font-size:medium;
+}
+
+p{
+	font-family: century gothic;
+	margin-left: 40px;
+	margin-right: 20px;
+	
+}
+	
+html {
+    margin:0px;
+    padding:0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+main{
+	height:auto;
+}
+
+body#accueil{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    
+}
+
+section#wrap{
+    margin:auto;
+    width:960px;
+    background-color:black;
+}
+
+
+/*****************************************************NAVIGATEUR********************************************************/
+
+
+nav {
+   display:inline-block;
+   background-color: #912718;
+   vertical-align: middle;
+   margin-top:31px;
+   margin-left:0;
+   padding-left:10px;
+}
+
+nav ul{
+   padding-left:0px;
+   text-decoration: none;
+   list-style-type: none;
+	font-family: century gothic;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 20px 0px 20px;
+    color: white;
+}
+
+img#generique{
+   display:inline-block;
+   vertical-align: middle;
+   padding:0;
+   margin-right: 0;
+   width:250px;
+   height:200px;
+	margin-bottom:3px;
+}
+
+
+/*************************************************************ACCUEIL**********************************************/
+
+
+img#photoacceuil{
+	width: 880px;
+    margin-left: 50px;
+	 margin-top: 30px;
+}
+
+
+/***************************************************************ACTEURS*********************************************/
+
+
+.container-left{
+	width:920px;;
+	height:350px;
+	/*float: middle;*/
+	margin: 0px;
+	margin-bottom: 50px;
+   
+}
+.image-left{
+	height: 250px;
+	position: relative;
+	
+}
+
+.text-left{
+	float: right;
+	height:350px;
+	width: 600px;
+	margin:0px;
+	text-align: left;
+	
+}
+
+.container-right{
+	width:960px;;
+	height:350px;
+	/*float: middle;*/
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+.image-right{
+	height: 250px;
+	position: relative;
+}
+
+.text-right{
+	float: left;
+	height:350px;
+	width: 600px;
+	margin:0px;
+	text-align: right;
+}
+
+
+/**************************************************SYNOPSIS*********************************************************/
+#synopsis{
+	margin-left: 40px;
+	
+}
+
+#FBI{
+	width: 500px;
+}
+
+#synopsis_text{
+	margin-top: 60px;
+	padding-bottom: 60px;
+	margin-left: 130px;
+	width:700px;
+	text-align: justify;
+	
+}
+
+
+/****************************************************FICHE TECHNIQUE*************************************************/
+
+#fiche{
+margin-left: 80px;
+width:850px;
+border-top: groove grey;
+border-width:6px;
+border-bottom: groove grey;
+border-bottom-width: 6px;	
+}
+
+#titre{
+	margin-top: 30px;
+	margin-right: 130px;
+}
+
+#trambone{
+	height: 100px;
+	margin-left: 150px;
+	margin-bottom: 20px;
+	float: left;
+	position: relative;
+	margin-top: -20px;
+}
+
+#text_fiche{
+	margin-top: 60px;
+	text-align: left;
+	font-size: 20px;
+	font-family: arial;
+}
+
+
+/****************************************************STRUCTURE ÉPISODE**********************************************/
+#structure{
+	margin-bottom: 40px;
+}
+
+#episode{
+	border-top: ridge;
+	border-left: groove;
+	border-right: groove;
+	border-color: #252323;
+	border-width: 10px;
+	height: auto;
+	width: 91%;
+	margin-left: 57px;
+	text-align: justify;
+}
+
+#lecture{
+	margin-left: 50px;
+	width: 95%;
+}
+
+#video{
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+
+#citation{
+	margin-left: 285px;
+	margin-bottom: 20px;
+}
+
+
+/****************************************************FAQ************************************************************/
+.faq{
+	margin-bottom: 70px;
+	margin-left: 30px;
+}
+
+.question{
+	text-align: justify;
+	margin-left: 120px;
+	font-size: 20px;
+}
+
+.réponse{
+	text-align: justify;
+	margin-left: 200px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+/****************************************************SITES INTERET***************************************************/
+#titre_sites{
+	margin-bottom: 70px;
+	font-size: 45px;
+}
+
+#site-containeur{
+	width:80%;
+	margin-left: 130px;
+}
+
+figure{
+	display: inline-block;
+}
+
+.site_icone{
+	height: 120px;
+	margin-bottom: 15px;
+}
+
+.link{
+	font-family: century gothic;
+}
+
+
+/****************************************************PLAN************************************************************/
+
+#plan{
+	font-size: 35px;
+	margin-left: 15px;
+}
+
+.main{
+	 display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+	 margin-left: 360px;
+}
+
+
+.liens li{
+	
+	display: inline-block;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.icone{
+	height: 50px;
+	vertical-align: middle;
+}
+
+.page{
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+/****************************************************A PROPOS********************************************************/
+#loupe{
+	height:100px;
+}
+
+#apropos{
+	width:90%;
+	margin-left: 60px;
+	text-align: justify;
+}
+
+/****************************************************FOOTER**********************************************************/
+
+footer{
+   list-style-type: none;
+   background-color: #912718;
+   color: black;
+   vertical-align: middle;
+   width:814.19px;
+	margin-top:50px;
+   margin-left:65px;
+	margin-bottom:80px;
+   padding-top:1px;
+   padding-bottom:1px;
+	padding-left:60px;
+	padding-right: 8px;
+	}
+
+footer ul li{
+	display: inline-block;
+	margin: 0px 60px 0px 10px;
+	font-family: century gothic;
+	text-align: center;
+}
+
+.navigateur{
+	height:20px;
+}
+
+
+#signature{
+	margin-top: 10px;
+	margin-right: 40px;
+}
+
